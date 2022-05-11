@@ -31,7 +31,7 @@ function changeHeaderWhenScroll() {
   }
 }
 
-/* TESTIMONIALS CAROUSEL SLIDER SWIPER */
+/* COMMENTS CAROUSEL SLIDER SWIPER */
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
@@ -59,7 +59,7 @@ scrollReveal.reveal(
   `#home .image, #home .text
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
+  #comments header, #comments .comments
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,
